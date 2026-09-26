@@ -2,6 +2,8 @@
 
 An interactive 3D real-estate showcase built for the Front-End Development Internship capstone project. Visitors can browse three fictional properties, explore interactive 3D models, click floor hotspots for room details, and submit a private showing inquiry (saved locally in the browser).
 
+Live Demo : https://3d-rental-site.vercel.app
+
 
 ## Tech Stack
 
@@ -41,7 +43,8 @@ npm run lint
 
 > Note: `--legacy-peer-deps` is required due to a peer dependency version mismatch between React 19 and some current package versions.
 
-## Project Structuresrc/
+## Project Structure
+src/
 components/
 scene/ — 3D scene, camera controller, floor callouts, property models
 panels/ — property details, inquiry form
